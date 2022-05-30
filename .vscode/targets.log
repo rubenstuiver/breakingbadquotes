@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Mon May 30 17:37:00 2022
+# Make data base, printed on Mon May 30 19:37:44 2022
 
 # Variables
 
@@ -21,6 +21,7 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 HOMEBREW_NO_ANALYTICS = 1
 # environment
+ 
 LC_CTYPE = UTF-8
 # environment
 VSCODE_LOG_NATIVE = false
@@ -29,7 +30,6 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
- 
 @F = $(notdir $@)
 # makefile
 CURDIR := /Users/rubenstuiver/code/rubenstuiver/bbquote
@@ -46,7 +46,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/jv/yk7cpcx97ln8wgt109nxk6c00000gn/T/vscode-ipc-1dbc8826-246d-4d60-8139-4864b43c375b.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/jv/yk7cpcx97ln8wgt109nxk6c00000gn/T/vscode-ipc-6525749d-d4e6-45b7-804b-b1917c887ae8.sock
 # environment
 VSCODE_CWD = /Users/rubenstuiver/code/rubenstuiver/bbquote
 # environment
@@ -112,7 +112,7 @@ USER = rubenstuiver
 # makefile
 .DEFAULT_GOAL := install_requirements
 # environment
-TERM_SESSION_ID = 6B582C6E-576F-4C1E-9C41-D620BDB2BA4F
+TERM_SESSION_ID = D1855A7D-DF39-465A-A157-8B3A8C498476
 # environment
 LESS = -R
 # automatic
@@ -142,7 +142,7 @@ TERM_PROGRAM_VERSION = 440
 # environment
 NVM_DIR = /Users/rubenstuiver/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.4903456.4903462.A94042E7-C808-4D67-92FD-65E5385C24EA
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.4903456.4903462.F5F73C07-AE1C-49DE-AD3F-27B8E34A5821
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -192,9 +192,9 @@ VSCODE_PID = 23139
 
 # Directories
 
-# . (device 16777234, inode 6435474): 21 files, no impossibilities.
+# . (device 16777234, inode 6435474): 22 files, no impossibilities.
 
-# 21 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -332,6 +332,7 @@ clean:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  commands to execute (from `Makefile', line 23):
+ 
 	@rm -f */version.txt
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
@@ -341,7 +342,6 @@ clean:
 	
 
 ftest:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -378,6 +378,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon May 30 17:37:00 2022
+# Finished Make data base on Mon May 30 19:37:44 2022
 
  
