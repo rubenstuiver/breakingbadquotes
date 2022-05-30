@@ -8,6 +8,3 @@ def get_quote():
     return f"'{response['quote']}' \n> {response['author']}"
 
 print(get_quote())
-
-
-# alternative url = url = 'https://breaking-bad.lewagon.com/v1/quotes'
